@@ -2,7 +2,6 @@
 
 # ESP32 Touchscreen Buttons Demo (ESP32-2432S028R)
 
-Test di due pulsanti touchscreen (ON/OFF) con display TFT 2.8" (ILI9341) e touch resistivo XPT2046 su scheda **ESP32-2432S028R** (Cheap Yellow Display).
 
 🔗 [Scheda tecnica e guida dettagliata - Random Nerd Tutorials](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)
 
@@ -118,18 +117,7 @@ void loop() {
 }
 ```
 
----
 
-## 🔍 Touchscreen mapping
-
-Mappatura touch calibrata per la tua scheda:
-
-```cpp
-x = map(p.x, 200, 3700, 1, 320);
-y = map(p.y, 240, 3800, 1, 240);
-```
-
-Modifica i valori solo se le coordinate risultano invertite o imprecise.
 
 ---
 
