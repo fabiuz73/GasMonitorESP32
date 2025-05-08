@@ -128,5 +128,9 @@ void loop() {
 }
 ```
 
+## 🖼️ Immagine del modulo ESP32-2432S028R
+
+![ESP32-2432S028R Annotated Board](Screenshot%202025-05-08%20220227.png)
+
 ## 🔗 Risorse utili
 - Guida completa: [Cheap Yellow Display ESP32-2432S028R - Random Nerd Tutorials](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)
